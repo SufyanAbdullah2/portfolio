@@ -113,18 +113,18 @@ body::-webkit-scrollbar-thumb:hover {
 
 .dev {
     padding-left: 6%;
-    text-shadow: rgb(76, 0, 255) 1px 1px 1px;
+    letter-spacing: 8px;
+    text-shadow: rgb(76, 0, 255) 2px 0px 2px;
     font-family: "Merienda", cursive;
-    font-size: 150%;
+    font-size: 180%;
     font-weight: bolder;
 }
 
 .leftside p {
     padding-top: 1%;
     padding-left: 3%;
-    color: #000000;
-    text-shadow: #4e4e4e 0px 0px 2px;
-    font-weight: bolder;
+    text-shadow: #686565 1px 1px 1px ;
+    font-weight: lighter;
     font-family: Arial, Helvetica, sans-serif;
 }
 
@@ -198,7 +198,7 @@ body::-webkit-scrollbar-thumb:hover {
 
 .row1 {
     margin-top: 5%;
-    margin-bottom: -22%;
+    margin-bottom: -21%;
 
 }
 
@@ -207,7 +207,7 @@ body::-webkit-scrollbar-thumb:hover {
     display: flex;
     justify-content: space-evenly;
     align-items: center;
-    margin-bottom: -26%;
+    margin-bottom: -24%;
 }
 
 .row3 {
@@ -245,7 +245,10 @@ body::-webkit-scrollbar-thumb:hover {
     color: rgb(255, 255, 255);
     text-shadow: rgb(0, 0, 0) 1px 1px 6px;
 }
-
+.footer h3:hover{
+    transform: scale(1.1);
+    text-shadow: rgb(0, 0, 0) 1px 1px 10px;
+}
 .cards {
     display: flex;
     flex-direction: row;
@@ -286,7 +289,6 @@ body::-webkit-scrollbar-thumb:hover {
 }
 
 .cards:hover>.card:not(:hover) {
-    filter: blur(10px);
     transform: scale(0.9);
     box-shadow: 0 0 5px rgba(0, 0, 0, 0.2);
 }
